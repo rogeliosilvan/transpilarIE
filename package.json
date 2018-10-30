@@ -1,0 +1,25 @@
+{
+  "name": "transpilarie",
+  "version": "0.0.2",
+  "description": "transpilarie",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v -w",
+    "start": "lite-server",
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "author": "Rogelio Silvan",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
